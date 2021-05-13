@@ -13,13 +13,15 @@
     <div class="container">
         <section class="register">
             <div class="body">
-                <div class="login_segment">
+                <div class="register_segment">
                     <h1>Register</h1>
                     <form action="/register" method="POST">
                         <input type="name" placeholder="name" class="field" required>
                         <input type="email" placeholder="email" class="field" required>
                         <input type="password" placeholder="password" class="field" required>
-                        <input type="submit" value="Register" class="btn">
+                        <div class="reg_btn">
+                            <button><a href="/login">Register</a></button>
+                        </div>
                     </form>
                     <div class="pass-link">
                         <a href="/login">Already registerd? Login</a>
